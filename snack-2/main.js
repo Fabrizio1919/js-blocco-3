@@ -7,3 +7,6 @@ Es: [‘pippo’, ‘PLUTO’, ‘Paperino’] => [‘Pippo’, ‘Pluto’, ‘
 
 const nomi = ["LorenZo", "MAttia", "Giuseppe", "fabrIZio",  "ROBERTO", "francSco"];
 
+const listaNomi = nomi.map(nome => nome[0].toUpperCase() + nome.slice(1).toLowerCase());
+console.log(listaNomi);
+
